@@ -143,7 +143,7 @@ def starting(c,real_list, lista, result, mapping_dict, count_i):
         
 
     #driver = webdriver.Chrome(executable_path=os.environ.get("chromedriver.exe"), options=chrome_options)
-    driver=webdriver.Chrome("chromedriver.exe")
+    driver=webdriver.Chrome("https://github.com/tanisha-ai/bill-check-oilab/blob/main/Bill-Check-OLAB-master/Bill-Check-OLAB-master/chromedriver.exe")
     #print(driver)
     x=len(lista)
     for k in range(lista[0],lista[1]):
